@@ -66,4 +66,4 @@ stages:
         kubernetesServiceConnection: 'azure-kubernetes-connection'
         namespace: 'default'
         manifests: '$(System.ArtifactsDirectory)/configuration/kubernetes/deployment.yaml'
-        containers: 'pdrummondf/currency-exchange-devops:$(tag)'
+        containers: 'pdrummondf/currency-exchange-devops:18'
